@@ -1,0 +1,4 @@
+AllCops:
+  DisplayCopNames: true
+  Include:
+    - 'Gemfile'

@@ -1,0 +1,4 @@
+name: devtools
+namespace: Devtools
+ignore_subjects:
+- "Devtools::Flay::Scale#flay"
