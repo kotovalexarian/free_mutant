@@ -31,7 +31,7 @@ Gem::Specification.new do |gem|
   gem.add_runtime_dependency('ice_nine',      '~> 0.11.1')
   gem.add_runtime_dependency('memoizable',    '~> 0.4.2')
   gem.add_runtime_dependency('morpher',       '~> 0.2.6')
-  gem.add_runtime_dependency('parser',        '~> 2.5.1')
+  gem.add_runtime_dependency('parser',        '~> 2.5', '>= 2.5.1')
   gem.add_runtime_dependency('procto',        '~> 0.0.2')
   gem.add_runtime_dependency('regexp_parser', '~> 1.2')
   gem.add_runtime_dependency('unparser',      '~> 0.4.2')
