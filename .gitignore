@@ -36,3 +36,6 @@ Gemfile.*.lock
 
 ## PROJECT::SPECIFIC
 /vendor
+
+/.ruby-version
+/.ruby-gemset
