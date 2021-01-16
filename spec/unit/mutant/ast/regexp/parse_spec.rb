@@ -13,7 +13,11 @@ RSpec.describe Mutant::AST::Regexp, '.parse' do
 
   context 'on regexp regexp_parser does not accept' do
     it 'returns nil' do
-      expect(apply(/u{/)).to be(nil)
+      if Regexp::Parser::VERSION >= '1.7.1'
+        expect(apply(/u{/).to_re).to eql(/u{/)
+      else
+        expect(apply(/u{/)).to be(nil)
+      end
     end
   end
 end
