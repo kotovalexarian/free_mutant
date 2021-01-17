@@ -14,7 +14,7 @@ PATH
       morpher (~> 0.2.6)
       parser (~> 2.5, >= 2.5.1)
       procto (~> 0.0.2)
-      regexp_parser (~> 1.2)
+      regexp_parser (~> 1.7, >= 1.7.1)
       unparser (~> 0.4.2)
     mutant-rspec (0.8.24)
       mutant (~> 0.8.24)
