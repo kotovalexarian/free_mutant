@@ -1,7 +1,7 @@
 AllCops:
   DisplayCopNames: true
   Exclude:
-    - 'devtools/**/*'
+    - 'gems/**/*'
     - 'test_app/**/*'
     - 'tmp/**/*'
     - 'vendor/**/*'
