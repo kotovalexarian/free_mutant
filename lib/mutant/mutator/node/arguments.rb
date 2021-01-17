@@ -26,9 +26,7 @@ module Mutant
           emit_type
 
           Util::Array::Presence.call(children).each do |children|
-            if children.one? && n_mlhs?(Mutant::Util.one(children))
-              emit_procarg(Mutant::Util.one(children))
-            else
+            unless children.one? && n_mlhs?(children.first)
               emit_type(*children)
             end
           end

@@ -38,7 +38,6 @@ Mutant::Meta::Example.add :block do
   mutation 'foo { |(a, b), c| raise }'
   mutation 'foo { |(a), c| }'
   mutation 'foo { |(b), c| }'
-  mutation 'foo { |(a, b)| }'
   mutation 'foo { |c, | }'
   mutation 'foo { |(_a, b), c| }'
   mutation 'foo { |(a, _b), c| }'
@@ -85,7 +84,6 @@ Mutant::Meta::Example.add :block do
 
   singleton_mutations
   mutation 'foo { || }'
-  mutation 'foo { |a| }'
   mutation 'foo { |(a)| raise }'
   mutation 'foo { |(_a)| }'
   mutation 'foo'
