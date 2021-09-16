@@ -30,7 +30,7 @@ Gem::Specification.new do |gem|
   gem.add_runtime_dependency('equalizer',     '~> 0.0.9')
   gem.add_runtime_dependency('ice_nine',      '~> 0.11.1')
   gem.add_runtime_dependency('memoizable',    '~> 0.4.2')
-  gem.add_runtime_dependency('morpher',       '~> 0.2.6')
+  gem.add_runtime_dependency('morpher',       '~> 0.3.1')
   gem.add_runtime_dependency('parser',        '~> 2.7.2')
   gem.add_runtime_dependency('procto',        '~> 0.0.2')
   gem.add_runtime_dependency('regexp_parser', '~> 1.8.2')
